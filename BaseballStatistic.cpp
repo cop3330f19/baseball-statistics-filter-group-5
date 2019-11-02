@@ -7,22 +7,13 @@
 
 using namespace std;
 
-BaseballStatistic::BaseballStatistic(string fname, string lname, string tname, int jnum, string pos, char bat, char throw, int atbats, double bAV, int HR, int rbi, int sb, double ops, double era)
+BaseballStatistic::BaseballStatistic()
 {
-    setFirstName(fname);
-    setLastName(lname);
-    setTeamName(tname);
-    setJerseyNum(jnum);
-    setPosition(pos);
-    setBatting(bat);
-    setThrowing(throw);
-    setAtBats(atbats);
-    setBattingAverage(bAV);
-    setHR(HR);
-    setRBI(rbi);
-    setSB(sb);
-    setOPS(ops);
-    setERA(era); 
+}
+
+BaseballStatistic::BaseballStatistic(string fname, string lname, string tname, int jnum, string pos, char bat, char throw, int atbats, 
+	double bAV, int HR, int rbi, int sb, double ops, double era): firstName(fname), lastName(lname), teamName(tname), jerseyNum(jnum),
+        position(pos), batting(bat), throwing(throw), atBats(atbats), BattingAverage(bAV), HR(HR), RBI(rbi), SB(sb), OPS(ops), ERA(era){
 }
 
 void BaseballStatistic::setFirstName
