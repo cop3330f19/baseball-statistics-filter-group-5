@@ -82,3 +82,19 @@ void BaseballStatistic::setERA
 {
 
 }
+
+        string getFirstName()const;
+		string getLastName()const;
+		string getTeamName()const;
+		int getJerseyNum()const;
+		string getPosition()const;
+		int getAge()const;
+		char getBatting()const;
+		char getThrowing()const;
+		int getAtBats()const;
+		double getBattingAverage()const;
+		int getHR()const;
+		int getRBI()const;
+		int getSB()const;
+		double getOPS()const;
+		double getERA()const;
