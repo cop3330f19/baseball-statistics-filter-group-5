@@ -12,8 +12,8 @@ BaseballStatistic::BaseballStatistic()
 }
 
 BaseballStatistic::BaseballStatistic(string fname, string lname, string tname, int jnum, string pos, char bat, char throw, int atbats, 
-	double bAV, int HR, int rbi, int sb, double ops, double era): firstName(fname), lastName(lname), teamName(tname), jerseyNum(jnum),
-        position(pos), batting(bat), throwing(throw), atBats(atbats), BattingAverage(bAV), HR(HR), RBI(rbi), SB(sb), OPS(ops), ERA(era){
+	double bAV, int hr, int rbi, int sb, double ops, double era): firstName(fname), lastName(lname), teamName(tname), jerseyNum(jnum),
+        position(pos), batting(bat), throwing(throw), atBats(atbats), battingAverage(bAV), HR(HR), RBI(rbi), SB(sb), OPS(ops), ERA(era){
 }
 
 void BaseballStatistic::setFirstName
