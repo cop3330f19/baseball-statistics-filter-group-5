@@ -83,63 +83,63 @@ void BaseballStatistic::setERA
 
 }
 
-string::getFirstName()const
+string BaseballStatistic::getFirstName()const
 { 
 	return firstName;
 }
-string::getLastName()const
+string BaseballStatistic::getLastName()const
 {
 	return lastName;
 }
-string::getTeamName()const
+string BaseballStatistic::getTeamName()const
 { 
 	return teamName;
 }
-int::getJerseyNum()const
+int BaseballStatistic::getJerseyNum()const
 {
 	return jerseyNum;
 }
-string::getPosition()const 
+string BaseballStatistic::getPosition()const 
 {
 	return position;
 }
-int::getAge()const
+int BaseballStatistic::getAge()const
 {
 	return age;
 }
-char::getBatting()const
+char BaseballStatistic::getBatting()const
 {
 	return batting;
 }
-char::getThrowing()const
+char BaseballStatistic::getThrowing()const
 {
 	return throwing;
 }
-int::getAtBats()const
+int BaseballStatistic::getAtBats()const
 {
 	return atBats;
 }
-double::getBattingAverage()const
+double BaseballStatistic::getBattingAverage()const
 {
 	return battingAverage;
 }
-int::getHR()const
+int BaseballStatistic::getHR()const
 {
 	return HR;
 }
-int::getRBI()const
+int BaseballStatistic::getRBI()const
 {
 	return RBI;
 }
-int::getSB()const
+int BaseballStatistic::getSB()const
 {
 	return SB;
 }
-double::getOPS()const
+double BaseballStatistic::getOPS()const
 {
 	return OPS;
 }
-double::getERA()const
+double BaseballStatistic::getERA()const
 {
 	return ERA;
 }
