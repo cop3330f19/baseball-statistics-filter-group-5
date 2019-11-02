@@ -24,3 +24,61 @@ BaseballStatistic::BaseballStatistic(string fname, string lname, string tname, i
     setOPS(ops);
     setERA(era); 
 }
+
+void BaseballStatistic::setFirstName
+{
+
+}
+
+void BaseballStatistic::setLastName
+{
+
+}
+void BaseballStatistic::setTeamName
+{
+
+}
+void BaseballStatistic::setJerseyNum
+{
+
+}
+void BaseballStatistic::setPosition
+{
+
+}
+void BaseballStatistic::setBatting
+{
+
+}
+void BaseballStatistic::setThrowing
+{
+
+}
+void BaseballStatistic::setAtBats
+{
+
+}
+void BaseballStatistic::setBattingAverage
+{
+
+}
+void BaseballStatistic::setHR
+{
+
+}
+void BaseballStatistic::setRBI
+{
+
+}
+void BaseballStatistic::setSB
+{
+
+}
+void BaseballStatistic::setOPS
+{
+
+}
+void BaseballStatistic::setERA
+{
+
+}
