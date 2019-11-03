@@ -1,3 +1,9 @@
+/*
+Group Members: Samantha Lafrance, Taris Green, Darrell Brown
+Date Last Edited: 11/2/19
+Purpose: Implementations for Filter
+*/
+
 #include "Filter.h"
 #include <vector>
 #include <iostream>

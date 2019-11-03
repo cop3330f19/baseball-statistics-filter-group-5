@@ -1,3 +1,9 @@
+/*
+Group Members: Samantha Lafrance, Taris Green, Darrell Brown
+Date Last Edited: 10/29/19
+Purpose: Header file for Date
+*/
+
 #ifndef DATE_H
 #define DATE_H
 
