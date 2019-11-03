@@ -160,3 +160,5 @@ double BaseballStatistic::getERA()const
 {
 	return ERA;
 }
+	
+void print()const;
