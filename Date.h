@@ -1,6 +1,6 @@
 /*
 Group Members: Samantha Lafrance, Taris Green, Darrell Brown
-Date Last Edited: 10/29/19
+Date Last Edited: 11/3/19
 Purpose: Header file for Date
 */
 
@@ -15,16 +15,13 @@ class Date
 {
 	
 	private:
-		const int day, month, year;
-        int birthMonth,birthDay,birthYear;
+		const int day, month, year,birthMonth,birthDay,birthYear;
 	
 	public:
 		//Constructor accepts the date in the format YYYY, MM, DD
 		//eg Date date(2019, 9, 27);
-		explicit Date(int y, int m, int d):
-			year(y), month(m), day(d){}
-
-		Date(int bmonth,int bday,int byear);
+		explicit Date(int y, int m, int d,int bmonth,int bday,int byear)
+        :year(y), month(m), day(d),birthMonth(bmonth),birthDay(bday),birthYear(byear){}
     
 		int getDay()const; //Returns the day
             {return day;}
@@ -33,6 +30,7 @@ class Date
 		int getYear()const;//Returns the year
             {return year;}
 		std::string getDate()const;
+            //{return }
     
     //Person's Birth Date
         int getBirthDay()const; //Returns the day

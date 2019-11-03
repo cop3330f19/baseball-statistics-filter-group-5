@@ -11,6 +11,7 @@ Purpose: Header file for Filter
 #include <BaseballStatistic.cpp>
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 class Filter{
