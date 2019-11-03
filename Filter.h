@@ -11,6 +11,6 @@ class Filter{
   public:
 
   static void sort(vector<BaseballStatistic>&);
-  static int search(vector<BaseballStatistic>, string, string);  	
+  static int search(vector<BaseballStatistic>, string, char, int, double);  	
 };
 #endif
