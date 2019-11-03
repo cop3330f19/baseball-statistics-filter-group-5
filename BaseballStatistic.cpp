@@ -9,7 +9,6 @@ Purpose: Implementations for BaseballStatistic
 #include <string>
 #include <iostream>
 #include <iomanip>
-#include <sstream>
 
 using namespace std;
 

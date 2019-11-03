@@ -1,6 +1,6 @@
 /*
 Group Members: Samantha Lafrance, Taris Green, Darrell Brown
-Date Last Edited: 11/2/19
+Date Last Edited: 11/3/19
 Purpose: Header file for Filter
 */
 
@@ -8,7 +8,6 @@ Purpose: Header file for Filter
 #define FILTER_H
 
 #include "BaseballStatistic.h"
-#include <BaseballStatistic.cpp>
 #include <iostream>
 #include <vector>
 
