@@ -1,6 +1,6 @@
 /*
 Group Members: Samantha Lafrance, Taris Green, Darrell Brown
-Date Last Edited: 11/3/19
+Date Last Edited: 11/5/19
 Purpose: Implementations for BaseballStatistic
 */
 
@@ -16,145 +16,145 @@ using namespace std;
 //{
 //}
 
-BaseballStatistic::BaseballStatistic(std::string fname, std::string lname, std::string tname, int jnum, std::string pos, char bat,                                        char thrw,int aGE, int atbats, double bAV, int hour, int rBI, int sB, double oPS, double eRA)
+BaseballStatistic::BaseballStatistic(std::string fname, std::string lname, std::string tname, int jnum, std::string pos, char bat, char thrw,int aGE, int atbats, double bAV, int hour, int rBI, int sB, double oPS, double eRA)
                                     : firstName(fname), lastName(lname),teamName(tname), jerseyNum(jnum),position(pos), batting(bat), throwing(thrw), atBats(atbats), battingAverage(bAV), hr(hour), rbi(rBI), sb(sB), ops(oPS), era(eRA) {}
 
-void BaseballStatistic::setFirstName(string fname)
+void BaseballStatistic::setfirstName(string fname)
 {
    firstName = fname;
 }
 
-void BaseballStatistic::setLastName(string lname)
+void BaseballStatistic::setlastName(string lname)
 {
    lastName = lname;
 }
 
-void BaseballStatistic::setTeamName(string tname)
+void BaseballStatistic::setteamName(string tname)
 {
    teamName = tname;
 }
 
-void BaseballStatistic::setJerseyNum(int jnum)
+void BaseballStatistic::setjerseyNum(int jnum)
 {
    jerseyNum = jnum;
 }
 
-void BaseballStatistic::setPosition(string pos)
+void BaseballStatistic::setposition(string pos)
 {
    position = pos;
 }
 
-void BaseballStatistic::setBatting(char bat)
+void BaseballStatistic::setbatting(char bat)
 {
    batting = bat;
 }
 
-void BaseballStatistic::setThrowing(char thrw)
+void BaseballStatistic::setthrowing(char thrw)
 {
    throwing = thrw;
 }
 
-void BaseballStatistic::setAtBats(int atbats)
+void BaseballStatistic::setatBats(int atbats)
 {
    atBats = atbats;
 }
 
-void BaseballStatistic::setBattingAverage(double bAV)
+void BaseballStatistic::setbattingAverage(double bAV)
 {
    battingAverage = bAV;
 }
 
-void BaseballStatistic::setHR(int hour)
+void BaseballStatistic::sethr(int hour)
 {
   hr = hour;
 }
 
-void BaseballStatistic::setRBI(int rBI)
+void BaseballStatistic::setrbi(int rBI)
 {
   rbi = rBI;
 }
 
-void BaseballStatistic::setSB(int sB)
+void BaseballStatistic::setsb(int sB)
 {
   sb = sB;
 }
 
-void BaseballStatistic::setOPS(double oPS)
+void BaseballStatistic::setops(double oPS)
 {
   ops = oPS;
 }
 
-void BaseballStatistic::setERA(double eRA)
+void BaseballStatistic::setera(double eRA)
 {
   era = eRA;
 }
 
-string BaseballStatistic::getFirstName()const
+string BaseballStatistic::getfirstName()const
 { 
 	return firstName;
 }
 
-string BaseballStatistic::getLastName()const
+string BaseballStatistic::getlastName()const
 {
 	return lastName;
 }
 
-string BaseballStatistic::getTeamName()const
+string BaseballStatistic::getteamName()const
 { 
 	return teamName;
 }
 
-int BaseballStatistic::getJerseyNum()const
+int BaseballStatistic::getjerseyNum()const
 {
 	return jerseyNum;
 }
 
-string BaseballStatistic::getPosition()const 
+string BaseballStatistic::getposition()const 
 {
 	return position;
 }
 
-char BaseballStatistic::getBatting()const
+char BaseballStatistic::getbatting()const
 {
 	return batting;
 }
 
-char BaseballStatistic::getThrowing()const
+char BaseballStatistic::getthrowing()const
 {
 	return throwing;
 }
 
-int BaseballStatistic::getAtBats()const
+int BaseballStatistic::getatBats()const
 {
 	return atBats;
 }
 
-double BaseballStatistic::getBattingAverage()const
+double BaseballStatistic::getbattingAverage()const
 {
 	return battingAverage;
 }
 
-int BaseballStatistic::getHR()const
+int BaseballStatistic::gethr()const
 {
 	return hr;
 }
 
-int BaseballStatistic::getRBI()const
+int BaseballStatistic::getrbi()const
 {
 	return rbi;
 }
 
-int BaseballStatistic::getSB()const
+int BaseballStatistic::getsb()const
 {
 	return sb;
 }
 
-double BaseballStatistic::getOPS()const
+double BaseballStatistic::getops()const
 {
 	return ops;
 }
 	
-double BaseballStatistic::getERA()const
+double BaseballStatistic::getera()const
 {
 	return era;
 }
