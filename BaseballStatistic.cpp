@@ -19,142 +19,142 @@ using namespace std;
 BaseballStatistic::BaseballStatistic(std::string fname, std::string lname, std::string tname, int jnum, std::string pos, char bat, char thrw,int aGE, int atbats, double bAV, int hour, int rBI, int sB, double oPS, double eRA)
                                     : firstName(fname), lastName(lname),teamName(tname), jerseyNum(jnum),position(pos), batting(bat), throwing(thrw), atBats(atbats), battingAverage(bAV), hr(hour), rbi(rBI), sb(sB), ops(oPS), era(eRA) {}
 
-void BaseballStatistic::setfirstName(string fname)
+void BaseballStatistic::setFirstName(string fname)
 {
    firstName = fname;
 }
 
-void BaseballStatistic::setlastName(string lname)
+void BaseballStatistic::setLastName(string lname)
 {
    lastName = lname;
 }
 
-void BaseballStatistic::setteamName(string tname)
+void BaseballStatistic::setTeamName(string tname)
 {
    teamName = tname;
 }
 
-void BaseballStatistic::setjerseyNum(int jnum)
+void BaseballStatistic::setJerseyNum(int jnum)
 {
    jerseyNum = jnum;
 }
 
-void BaseballStatistic::setposition(string pos)
+void BaseballStatistic::setPosition(string pos)
 {
    position = pos;
 }
 
-void BaseballStatistic::setbatting(char bat)
+void BaseballStatistic::setBatting(char bat)
 {
    batting = bat;
 }
 
-void BaseballStatistic::setthrowing(char thrw)
+void BaseballStatistic::setThrowing(char thrw)
 {
    throwing = thrw;
 }
 
-void BaseballStatistic::setatBats(int atbats)
+void BaseballStatistic::setAtBats(int atbats)
 {
    atBats = atbats;
 }
 
-void BaseballStatistic::setbattingAverage(double bAV)
+void BaseballStatistic::setBattingAverage(double bAV)
 {
    battingAverage = bAV;
 }
 
-void BaseballStatistic::sethr(int hour)
+void BaseballStatistic::setHR(int hour)
 {
   hr = hour;
 }
 
-void BaseballStatistic::setrbi(int rBI)
+void BaseballStatistic::setRBI(int rBI)
 {
   rbi = rBI;
 }
 
-void BaseballStatistic::setsb(int sB)
+void BaseballStatistic::setSB(int sB)
 {
   sb = sB;
 }
 
-void BaseballStatistic::setops(double oPS)
+void BaseballStatistic::setOPS(double oPS)
 {
   ops = oPS;
 }
 
-void BaseballStatistic::setera(double eRA)
+void BaseballStatistic::setERA(double eRA)
 {
   era = eRA;
 }
 
-string BaseballStatistic::getfirstName()const
+string BaseballStatistic::getFirstName()const
 { 
 	return firstName;
 }
 
-string BaseballStatistic::getlastName()const
+string BaseballStatistic::getLastName()const
 {
 	return lastName;
 }
 
-string BaseballStatistic::getteamName()const
+string BaseballStatistic::getTeamName()const
 { 
 	return teamName;
 }
 
-int BaseballStatistic::getjerseyNum()const
+int BaseballStatistic::getJerseyNum()const
 {
 	return jerseyNum;
 }
 
-string BaseballStatistic::getposition()const 
+string BaseballStatistic::getPosition()const 
 {
 	return position;
 }
 
-char BaseballStatistic::getbatting()const
+char BaseballStatistic::getBatting()const
 {
 	return batting;
 }
 
-char BaseballStatistic::getthrowing()const
+char BaseballStatistic::getThrowing()const
 {
 	return throwing;
 }
 
-int BaseballStatistic::getatBats()const
+int BaseballStatistic::getAtBats()const
 {
 	return atBats;
 }
 
-double BaseballStatistic::getbattingAverage()const
+double BaseballStatistic::getBattingAverage()const
 {
 	return battingAverage;
 }
 
-int BaseballStatistic::gethr()const
+int BaseballStatistic::getHR()const
 {
 	return hr;
 }
 
-int BaseballStatistic::getrbi()const
+int BaseballStatistic::getRBI()const
 {
 	return rbi;
 }
 
-int BaseballStatistic::getsb()const
+int BaseballStatistic::getSB()const
 {
 	return sb;
 }
 
-double BaseballStatistic::getops()const
+double BaseballStatistic::getOPS()const
 {
 	return ops;
 }
 	
-double BaseballStatistic::getera()const
+double BaseballStatistic::getERA()const
 {
 	return era;
 }
@@ -182,4 +182,3 @@ void BaseballStatistic::print()const
     cout<<"BA 0.23\n";
     cout<<"F\n";
 }
-
