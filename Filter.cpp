@@ -37,16 +37,16 @@ static void sort(vector<BaseballStatistic>& sort1);
           if (
               //For Sort 1: Last Name at j is < Last Name at min_idx
              //OR For Sort 2: Team Name at j is < Team Name at min_idx
-              (sort[j].getlastName().compare(sort[min_idx].getlastName()) < 0
-              || sort[j].getteamName().compare(sort[min_idx].getteamName()) < 0) 
+              (sort[j].getLastName().compare(sort[min_idx].getLastName()) < 0
+              || sort[j].getTeamName().compare(sort[min_idx].getTeamName()) < 0) 
               
               //OR For Sort 1: Last Names are equal and First Name at j is < First Name at min_idx
              // OR For Sort 2: Team Names are equal and Jersey Number at j < Jersey Number at min_idx
-              || (sort[j].getlastName().compare(sort[min_idx].getlastName()) == 0 && sort[j].getfirstName().compare(sort[min_idx].getfirstName() ) < 0)
-              || (sort[j].getteamName().compare(sort[min_idx].getteamName()) == 0 && sort[j].getjerseyNum() < sort[min_idx].getjerseyNum() )
+              || (sort[j].getLastName().compare(sort[min_idx].getLastName()) == 0 && sort[j].getFirstName().compare(sort[min_idx].getFirstName() ) < 0)
+              || (sort[j].getTeamName().compare(sort[min_idx].getTeamName()) == 0 && sort[j].getJerseyNum() < sort[min_idx].getJerseyNum() )
               
               // OR For Sort 1: Last Names and First Names are equal and Position at j < Position at min_idx
-              || (sort[j].getlastName().compare(sort[min_idx].getlastName()) == 0 && sort[j].getfirstName().compare(sort[min_idx].getfirstName()) == 0 && sort[j].getposition() < sort[min_idx].getposition() )  
+              || (sort[j].getLastName().compare(sort[min_idx].getLastName()) == 0 && sort[j].getLirstName().compare(sort[min_idx].getFirstName()) == 0 && sort[j].getPosition() < sort[min_idx].getPosition() )  
               )
             min_idx = j; 
       
@@ -65,13 +65,13 @@ static int search(vector<BaseballStatistic> stats, string teamName,char batting,
         int location = lo + (hi-lo)/2; 
   
         // Check if Team Name, Batting, Stolen Bases or Batting Average is at mid 
-        if (stats[location].getteamName() == teamName || stats[location].getBatting() == batting 
-           || stats[location].getsb() == sb || stats[location].getbattingAverage() == battingAverage) 
+        if (stats[location].getTeamName() == teamName || stats[location].getBatting() == batting 
+           || stats[location].getSB() == sb || stats[location].getBattingAverage() == battingAverage) 
             return location; 
   
         // If Team Name, Batting, Stolen Bases or Batting Average is greater, ignore left half 
-        if (stats[location].getteamName() < teamName || stats[location].getbatting() < batting 
-           || stats[location].getsb() < sb || stats[location].getbattingAverage() < battingAverage) 
+        if (stats[location].getTeamName() < teamName || stats[location].getBatting() < batting 
+           || stats[location].getSB() < sb || stats[location].getBattingAverage() < battingAverage) 
             lo = location + 1; 
   
         // If Team Name, Batting, Stolen Bases or Batting Average is smaller, ignore right half 
