@@ -22,7 +22,7 @@ void swap(vector<BaseballStatistic>& sort, int Idx1, int Idx2){
 }
 
 //Sort Function
-static void sort(vector<BaseballStatistic>& sort1);
+static void sort(vector<BaseballStatistic>& sort1)
 {
    int i, j, min_idx; 
   
@@ -53,6 +53,7 @@ static void sort(vector<BaseballStatistic>& sort1);
         // Swap the found minimum element with the first element 
         swap(sort, min_idx, i);       
     } 
+    }
 }
 
 static int search(vector<BaseballStatistic> stats, string teamName,char batting,int sb ,double battingAverage ){
